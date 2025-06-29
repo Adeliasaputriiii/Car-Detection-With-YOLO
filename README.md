@@ -35,7 +35,9 @@ pip install ultralytics
 1. Open the Jupyter Notebook file : `Tracking_Car_using_YOLO.ipynb`
 2. Run All cells
 3. The model will read the input video, detect cars in each frame, and write the result to an output video file named `output_tracking.mp4`
+   
 The output video will display:
+
   - Bounding boxes around detected cars
   - Total car count per frame
   - and confidence score for each detection
